@@ -1,3 +1,3 @@
 export default {
-  base: 'https://<USERNAME>.github.io/<REPO>/'
+  base: 'https://aiyazmostofa.github.io/cargills-corner/'
 }
