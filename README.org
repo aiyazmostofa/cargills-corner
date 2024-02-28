@@ -1,0 +1,9 @@
+* Cargill's Corner
+
+Hey Mr. Cargill.
+Everything is basically in main.ts.
+Styling is in style.css.
+index.html isn't anything interesting.
+
+** License
+[[file:LICENSE][GNU General Public License v3.0]]
