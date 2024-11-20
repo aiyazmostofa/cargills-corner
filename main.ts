@@ -65,7 +65,7 @@ function generateSelections() {
             if (nextPile.length == 0)
                 continue;
             else {
-                if (ValueData[nextPile[nextPile.length - 1].value].rank - 1 == ValueData[ourPile[0].value].rank && SuitData[nextPile[nextPile.length - 1].suit].color != SuitData[ourPile[0].suit].color) {
+                if (ValueData[nextPile[nextPile.length - 1].value].rank == (ValueData[ourPile[0].value].rank + 1) % 13 && SuitData[nextPile[nextPile.length - 1].suit].color != SuitData[ourPile[0].suit].color) {
                     availablePiles.push(i)
                 }
             }
@@ -83,7 +83,7 @@ function generateSelections() {
                 continue;
             }
             else {
-                if (ValueData[nextPile[nextPile.length - 1].value].rank - 1 == ValueData[selectedCard.value].rank && SuitData[nextPile[nextPile.length - 1].suit].color != SuitData[selectedCard.suit].color) {
+                if (ValueData[nextPile[nextPile.length - 1].value].rank == (ValueData[selectedCard.value].rank + 1) % 13 && SuitData[nextPile[nextPile.length - 1].suit].color != SuitData[selectedCard.suit].color) {
                     availablePiles.push(i)
                 }
             }
